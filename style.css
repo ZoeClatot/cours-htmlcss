@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    font-weight: 300;
+}
+h2{
+    font-family: 'Abril Fatface', cursive;
+}
+header p{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+
+}
+header {
+    background-image: url("images/photo-fleurs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 60%;
+    height: 43vh;
+    display: flex; /*met les éléments sur une même ligne*/
+    flex-direction: column; /*dispose les éléments à l'interieur du header en colonnes*/
+    justify-content: space-around;/*met un espace autour des éléments à l'interieur du header*/
+}
+.icone{
+    height: 50px;
+    margin-right: 10px;
+}
+nav{
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.presentation{
+display: flex;
+align-items: center; /*aligne au centre sur l'axe de la verticale*/
+width: 80%;
+margin: 64px auto 2em auto;
+}
+.titre-section {
+font-size: 3em;
+text-align: center;
+
+}
+.presentation p{
+    font-size: 1.4em;
+    margin-top: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.presentation img{
+    width: 400px;
+}
+.contener-competences{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contener-competences h3, .contener-competences h4, .contener-competences h5, .contener-competences p, .contener-competences ul{
+    margin-bottom: 1em;
+}
+.competences{
+    width: 85%;
+    margin: 2em auto;
+    background-color: peachpuff;
+    padding: 10px 10px;
+}
+.item-contener{
+    height: 350px;
+    padding: 0 10px;
+}
+.ligne{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contener-competences h3{
+    font-size: 1.5em;
+}
+
