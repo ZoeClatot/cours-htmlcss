@@ -47,6 +47,7 @@ margin: 64px auto 2em auto;
 .titre-section {
 font-size: 3em;
 text-align: center;
+background-color: rgb(240, 163, 155);
 
 }
 .presentation p{
@@ -69,7 +70,7 @@ text-align: center;
 .competences{
     width: 85%;
     margin: 2em auto;
-    background-color: peachpuff;
+    background-color:  rgb(240, 163, 155);
     padding: 10px 10px;
 }
 .item-contener{
